@@ -1,0 +1,19 @@
+body {
+    background-color: aqua;
+}
+
+h1, p {
+    /*background-color: aqua;*/
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+ul {
+   display: table;
+   margin: 0 auto; 
+}
+
+h1
+ {
+     color: white;
+ }
