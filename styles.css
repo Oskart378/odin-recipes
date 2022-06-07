@@ -2,18 +2,38 @@ body {
     background-color: aqua;
 }
 
+a {
+    text-decoration: none;
+}
+
 h1, p , h2, h3{
     /*background-color: aqua;*/
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
 
-ul , ol{
-   display: table;
-   margin: 0 auto; 
+ul,ol {
+    display: table;
+    margin: 0 auto;
+
+}
+
+#menu-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+ 
 }
 
 h1
  {
-     color: white;
+     color: rgb(255, 255, 255);
+ }
+
+ #menu-list li {
+    padding: 25px;
+    border: 8px solid white;
+    block-size: 80px;
+    background-color: cadetblue;
+
  }
