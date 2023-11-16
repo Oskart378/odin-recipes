@@ -1,0 +1,20 @@
+body {
+    background-color: lightgray;
+}
+
+img {
+    height: auto;
+    width: 500px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+ 
+li { 
+    margin-top: 30px;  
+ }
+
+ h1, h2, p { text-align: center;}
+ ol, ul {display: table; margin: 0 auto;}
+ img {display : block; margin: auto auto;}
