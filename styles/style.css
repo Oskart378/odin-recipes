@@ -1,5 +1,5 @@
 body {
-    background-color: lightgray;
+    background-color: lightblue;
 }
 
 img {
@@ -7,14 +7,49 @@ img {
     width: 500px;
 }
 
+.recipe_img {
+    border: 5px double black;
+}
+
 h1 {
     font-family: 'Times New Roman', Times, serif;
+}
+
+ul{
+    list-style-type: square; 
 }
  
 li { 
     margin-top: 30px;  
+    
  }
 
  h1, h2, p { text-align: center;}
  ol, ul {display: table; margin: 0 auto;}
  img {display : block; margin: auto auto;}
+
+.menu_list {
+    margin-bottom: 25px;
+}
+
+ .menu_items {
+    background-color: rgb(127, 197, 197);
+    border: 5px dotted rgb(87, 87, 204);
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+ }
+
+ .menu_title {
+    margin-bottom: 70px;
+    background-color: rgb(127, 197, 197);
+    padding: 20px;
+ }
+
+.ordered_steps {
+    background-color: rgb(127, 197, 197);
+    border: 5px dotted rgb(87, 87, 204);
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+}
